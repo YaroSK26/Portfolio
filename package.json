@@ -17,7 +17,9 @@
     "maath": "^0.7.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-hot-toast": "^2.4.1",
     "react-router-dom": "^6.14.2",
+    "react-sweetalert2": "^0.6.0",
     "react-tilt": "^1.0.2",
     "react-vertical-timeline-component": "^3.6.0",
     "three": "^0.155.0"
