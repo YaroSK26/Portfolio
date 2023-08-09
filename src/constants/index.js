@@ -8,13 +8,27 @@ import {
   html,
   css,
   reactjs,
-  redux,
   tailwind,
   nodejs,
   mongodb,
   git,
   figma,
-  docker,
+  aws,
+  clerk,
+  crisp,
+  firebase,
+  flask,
+  ganalytics,
+  jquery,
+  mysql,
+  nextauth,
+  nextjs,
+  php,
+  prisma,
+  python,
+  sass,
+  vite,
+  emailjs,
   meta,
   starbucks,
   tesla,
@@ -68,50 +82,59 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  {
-    name: "JavaScript",
-    icon: javascript,
-  },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
+  { name: "sass", icon: sass },
   {
     name: "Tailwind CSS",
     icon: tailwind,
   },
   {
-    name: "Node JS",
-    icon: nodejs,
+    name: "JavaScript",
+    icon: javascript,
   },
+  { name: "jquery", icon: jquery },
   {
-    name: "MongoDB",
-    icon: mongodb,
+    name: "React JS",
+    icon: reactjs,
+  },
+  { name: "next js", icon: nextjs },
+  {
+    name: "TypeScript",
+    icon: typescript,
   },
   {
     name: "Three JS",
     icon: threejs,
   },
+  { name: "vite", icon: vite },
+
+  {
+    name: "Node JS",
+    icon: nodejs,
+  },
+
+  { name: "php", icon: php },
+  { name: "python", icon: python },
+  { name: "flask", icon: flask },
+  { name: "prisma", icon: prisma },
+
+  { name: "mysql", icon: mysql },
+  {
+    name: "MongoDB",
+    icon: mongodb,
+  },
+  { name: "firebase", icon: firebase },
+
   {
     name: "git",
     icon: git,
   },
-  {
-    name: "figma",
-    icon: figma,
-  },
-  {
-    name: "docker",
-    icon: docker,
-  },
+  { name: "aws", icon: aws },
+  { name: "google analytics", icon: ganalytics },
+  { name: "clerk", icon: clerk },
+  { name: "next auth", icon: nextauth },
+  { name: "crisp", icon: crisp },
+  { name: "emailjs", icon: emailjs },
+  { name: "figma", icon: figma },
 ];
 
 const experiences = [
