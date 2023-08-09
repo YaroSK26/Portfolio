@@ -22,11 +22,39 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="w-16 h-16 object-contain" />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex">
-            Jaroslav &nbsp;
-            <span className="sm:block hidden"> | &nbsp; Barabáš</span>
-          </p>
+          <img
+            src={logo}
+            alt="logo"
+            className="w-16 h-16 object-contain logo"
+          />
+
+          <div className="line-div">
+            <div id="text">
+              <div className="line">
+                <p
+                  className=" text-white text-[18px] font-bold cursor-pointer flex sm:block  word fancy  "
+                  id="channel-link"
+                >
+                  <span className="letter">J</span>
+                  <span className="letter">a</span>
+                  <span className="letter">r</span>
+                  <span className="letter">o</span>
+                  <span className="letter">s</span>
+                  <span className="letter">l</span>
+                  <span className="letter">a</span>
+                  <span className="letter">v &nbsp;</span>
+                  <span className="letter">| &nbsp; </span>
+                  <span className="letter">B</span>
+                  <span className="letter">a</span>
+                  <span className="letter">r</span>
+                  <span className="letter">a</span>
+                  <span className="letter">b</span>
+                  <span className="letter">á</span>
+                  <span className="letter">š</span>
+                </p>
+              </div>
+            </div>
+          </div>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((link) => (

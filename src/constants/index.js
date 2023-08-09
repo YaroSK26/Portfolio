@@ -18,7 +18,6 @@ import {
   crisp,
   firebase,
   flask,
-  ganalytics,
   jquery,
   mysql,
   nextauth,
@@ -33,8 +32,8 @@ import {
   starbucks,
   tesla,
   shopify,
-  carrent,
-  jobit,
+  eshop,
+  chatgpt,
   tripguide,
   threejs,
 } from "../assets";
@@ -60,16 +59,16 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "UX/UI Designer",
+    icon: creator,
+  },
+  {
+    title: "Web analyst",
     icon: mobile,
   },
   {
     title: "Backend Developer",
     icon: backend,
-  },
-  {
-    title: "Content Creator",
-    icon: creator,
   },
 ];
 
@@ -129,7 +128,6 @@ const technologies = [
     icon: git,
   },
   { name: "aws", icon: aws },
-  { name: "google analytics", icon: ganalytics },
   { name: "clerk", icon: clerk },
   { name: "next auth", icon: nextauth },
   { name: "crisp", icon: crisp },
@@ -221,12 +219,12 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "E-commerce",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "This page is an imitation of e-commerce where customers can add products to their cart, add product to their wishlist, etc. All functions are controlled from the admin dashboard and can be changed easily.",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
@@ -238,29 +236,32 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: eshop,
+    source_code_link:
+      "https://github.com/YaroSK26/eshop-nextjs-tailwind-mongoDB-react-front",
+    source_website: ["eshop-front-jaxo.vercel.app"],
   },
   {
-    name: "Job IT",
+    name: "AI Platform",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "On this page you can generate text, images, music and much more! There are 5 free generation but you can also pay for an upgrade for unlimited generations. Customers also have their own customer support, which is done through Crisp",
     tags: [
       {
-        name: "react",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "prisma",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: chatgpt,
+    source_code_link: "https://github.com/YaroSK26/AI-Platform-Next",
+    source_website: ["ai-platform-next.vercel.app"],
   },
   {
     name: "Trip Guide",
@@ -282,6 +283,7 @@ const projects = [
     ],
     image: tripguide,
     source_code_link: "https://github.com/",
+    source_website: ["a"],
   },
 ];
 

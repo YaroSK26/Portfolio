@@ -23,7 +23,6 @@ import clerk from "./tech/clerk.png";
 import crisp from "./tech/crisp.png";
 import firebase from "./tech/firebase.png";
 import flask from "./tech/flask.png";
-import ganalytics from "./tech/ganalytics.svg";
 import jquery from "./tech/jquery.webp";
 import mysql from "./tech/mysql.png";
 import nextauth from "./tech/nextauth.png";
@@ -40,8 +39,8 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+import eshop from "./eshop.png";
+import chatgpt from "./chatgpt.png";
 import tripguide from "./tripguide.png";
 
 export {
@@ -69,7 +68,6 @@ export {
   crisp,
   firebase,
   flask,
-  ganalytics,
   jquery,
   mysql,
   nextauth,
@@ -84,7 +82,7 @@ export {
   shopify,
   starbucks,
   tesla,
-  carrent,
-  jobit,
+  eshop,
+  chatgpt,
   tripguide,
 };
