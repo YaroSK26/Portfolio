@@ -3,39 +3,27 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
   html,
+  javascript,
+
   css,
   reactjs,
   tailwind,
   nodejs,
   mongodb,
-  git,
-  figma,
-  aws,
-  clerk,
-  crisp,
-  firebase,
-  flask,
-  jquery,
-  mysql,
-  nextauth,
   nextjs,
   php,
   prisma,
   python,
-  sass,
-  vite,
-  emailjs,
+  supabase,
+  threejs,
   meta,
   starbucks,
   tesla,
   shopify,
   eshop,
   chatgpt,
-  tripguide,
-  threejs,
+  spotifyClone,
 } from "../assets";
 
 export const navLinks = [
@@ -81,7 +69,6 @@ const technologies = [
     name: "CSS 3",
     icon: css,
   },
-  { name: "sass", icon: sass },
   {
     name: "Tailwind CSS",
     icon: tailwind,
@@ -90,22 +77,16 @@ const technologies = [
     name: "JavaScript",
     icon: javascript,
   },
-  { name: "jquery", icon: jquery },
   {
     name: "React JS",
     icon: reactjs,
   },
   { name: "next js", icon: nextjs },
-  {
-    name: "TypeScript",
-    icon: typescript,
-  },
+
   {
     name: "Three JS",
     icon: threejs,
   },
-  { name: "vite", icon: vite },
-
   {
     name: "Node JS",
     icon: nodejs,
@@ -113,26 +94,13 @@ const technologies = [
 
   { name: "php", icon: php },
   { name: "python", icon: python },
-  { name: "flask", icon: flask },
+  { name: "supabase", icon: supabase },
   { name: "prisma", icon: prisma },
 
-  { name: "mysql", icon: mysql },
   {
     name: "MongoDB",
     icon: mongodb,
   },
-  { name: "firebase", icon: firebase },
-
-  {
-    name: "git",
-    icon: git,
-  },
-  { name: "aws", icon: aws },
-  { name: "clerk", icon: clerk },
-  { name: "next auth", icon: nextauth },
-  { name: "crisp", icon: crisp },
-  { name: "emailjs", icon: emailjs },
-  { name: "figma", icon: figma },
 ];
 
 const experiences = [
@@ -244,7 +212,7 @@ const projects = [
   {
     name: "AI Platform",
     description:
-      "On this page you can generate text, images, music and much more! There are 5 free generation but you can also pay for an upgrade for unlimited generations. Customers also have their own customer support, which is done through Crisp",
+      "On this  beatiful AI page you can generate text, images, videos, music and code! There are 5 free generation waiting for you  but  also you can pay for an upgrade for unlimited generations. ",
     tags: [
       {
         name: "next.js",
@@ -261,12 +229,12 @@ const projects = [
     ],
     image: chatgpt,
     source_code_link: "https://github.com/YaroSK26/AI-Platform-Next",
-    source_website: ["ai-platform-next.vercel.app"],
+    source_website: ["ai-platform-jaxo.vercel.app"],
   },
   {
-    name: "Trip Guide",
+    name: "Spotify-clone",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "Add songs to this website and enjoy listening to your own  tracks or songs that have been added by other people. You can change the volume of songs, change song to next or stop them completely.",
     tags: [
       {
         name: "nextjs",
@@ -277,13 +245,13 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "tailwind",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
-    source_website: ["a"],
+    image: spotifyClone,
+    source_code_link: "https://github.com/YaroSK26/spotify-clone",
+    source_website: ["spotify-clone-jaxo.vercel.app"],
   },
 ];
 
