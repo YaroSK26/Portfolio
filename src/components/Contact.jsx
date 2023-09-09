@@ -88,6 +88,7 @@ const Contact = ({swal}) => {
               onChange={handleChange}
               placeholder="What's your name?"
               className="bg-teriary py-4 px-6  placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
           <label htmlFor="email" className="flex flex-col ">
@@ -100,6 +101,7 @@ const Contact = ({swal}) => {
               onChange={handleChange}
               placeholder="What's your email?"
               className="bg-teriary py-4 px-6  placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
           <label htmlFor="message" className="flex flex-col ">
@@ -113,6 +115,7 @@ const Contact = ({swal}) => {
               onChange={handleChange}
               placeholder="What do you want to say?"
               className=" resize-none bg-teriary py-4 px-6  placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              required
             />
           </label>
           <button

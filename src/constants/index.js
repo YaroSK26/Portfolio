@@ -212,7 +212,7 @@ const projects = [
   {
     name: "AI Platform",
     description:
-      "On this  beatiful AI page you can generate text, images, videos, music and code! There are 5 free generation waiting for you  but  also you can pay for an upgrade for unlimited generations. ",
+      "On this  beatiful AI page you can generate text, images, videos, music and code! There are 5 free generations waiting for you  but  also you can pay for an upgrade for unlimited generations. ",
     tags: [
       {
         name: "next.js",
