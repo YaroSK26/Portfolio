@@ -34,7 +34,7 @@ const ProjectCard = ({
             >
               <img
                 src={github}
-                alt="github"
+                alt="github logo"
                 className="w-1/2 h-1/2 object-contain"
               />
             </div>
