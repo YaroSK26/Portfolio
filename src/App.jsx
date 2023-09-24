@@ -4,6 +4,7 @@ import ContactWrapper from "./components/ContactWrapper"
 import { CrispProvider } from "./components/CrispProvider"
 import TechMobile from "./components/TechMobile";
 
+
 function App() {
   return (
     <>
@@ -13,12 +14,13 @@ function App() {
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar></Navbar>
             <Hero></Hero>
+           
           </div>
           <About />
           {/* <Experience /> */}
 
           <Works />
-          
+
           {window.innerWidth > 1280 && <Tech />}
           {window.innerWidth < 1280 && <TechMobile />}
           {/* <Feedbacks /> */}

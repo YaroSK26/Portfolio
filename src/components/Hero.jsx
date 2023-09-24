@@ -24,7 +24,9 @@ const Hero = () => {
           </p>
         </div>
       </div>
-      {window.innerWidth > 1280 && <ComputersCanvas />}
+      
+      <ComputersCanvas />
+      {/* {window.innerWidth > 1280 && <ComputersCanvas />} */}
 
       <div className="absolute xs:bottom-5 bottom-2  w-full flex justify-center items-center">
         <a href="#about">
