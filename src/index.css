@@ -240,6 +240,13 @@ nav ul li a:hover::after {
 
 .mobile-height{
   @media screen and (max-width: 1280px) {
+    height:45rem;
+  }
+  @apply h-screen
+}
+
+.mobile-height{
+  @media screen and (max-width: 600px) {
     height:30rem;
   }
   @apply h-screen

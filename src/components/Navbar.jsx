@@ -25,14 +25,14 @@ const Navbar = () => {
           <img
             src={logo}
             alt="logo of my initial (JB)"
-            className="w-16 h-16 object-contain logo"
+            className="xs:w-16 xs:h-16 w-12 h-12 object-contain logo"
           />
 
           <div className="line-div">
             <div id="text">
               <div className="line">
                 <p
-                  className=" text-white text-[18px] font-bold cursor-pointer flex sm:block  word fancy  "
+                  className=" text-white text-[18px] mr-1  font-bold cursor-pointer flex sm:block  word fancy  "
                   id="channel-link"
                 >
                   <span className="letter">J</span>
