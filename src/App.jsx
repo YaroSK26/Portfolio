@@ -3,18 +3,20 @@ import {About,  Experience, Feedbacks,Hero, Navbar,Tech,Works ,StarsCanvas } fro
 import ContactWrapper from "./components/ContactWrapper"
 import { CrispProvider } from "./components/CrispProvider"
 import TechMobile from "./components/TechMobile";
+import { Analytics } from "@vercel/analytics/react";
 
 
 function App() {
   return (
     <>
       <CrispProvider />
+      <Analytics />
       <BrowserRouter>
         <div className="relative z-0 bg-primary">
           <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
             <Navbar></Navbar>
             <Hero></Hero>
-           
+
           </div>
           <About />
           {/* <Experience /> */}

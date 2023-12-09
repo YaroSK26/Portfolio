@@ -13,6 +13,8 @@
     "@emailjs/browser": "^3.11.0",
     "@react-three/drei": "^9.80.1",
     "@react-three/fiber": "^8.13.6",
+    "@vercel/analytics": "^1.1.1",
+    "@vercel/speed-insights": "^1.0.1",
     "crisp-sdk-web": "^1.0.21",
     "framer-motion": "^10.15.0",
     "maath": "^0.7.0",
