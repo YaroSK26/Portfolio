@@ -26,7 +26,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 
 import eshop from "./eshop.png";
-import chatgpt from "./chatgpt.png";
+import health from "./health.png";
 import spotifyClone from "./spotifyClone.png";
 
 export {
@@ -58,6 +58,6 @@ export {
   starbucks,
   tesla,
   eshop,
-  chatgpt,
+  health,
   spotifyClone,
 };

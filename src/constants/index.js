@@ -5,7 +5,7 @@ import {
   web,
   html,
   javascript,
-
+  health,
   css,
   reactjs,
   tailwind,
@@ -22,7 +22,6 @@ import {
   tesla,
   shopify,
   eshop,
-  chatgpt,
   spotifyClone,
 } from "../assets";
 
@@ -196,7 +195,7 @@ const projects = [
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
@@ -210,16 +209,16 @@ const projects = [
     source_website: ["eshop-front-jaxo.vercel.app"],
   },
   {
-    name: "AI Platform",
+    name: "Healthity",
     description:
-      "On this  beatiful AI page you can generate text, images, videos, music and code! There are 5 free generations waiting for you  but  also you can pay for an upgrade for unlimited generations. ",
+      "App that will make you fit. Bmi, water checker or food tracker will convince you of the power of web technologies! Record your data and track your progress.Discover the power of Healthity. ",
     tags: [
       {
         name: "next.js",
         color: "blue-text-gradient",
       },
       {
-        name: "prisma",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
@@ -227,9 +226,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: chatgpt,
-    source_code_link: "https://github.com/YaroSK26/AI-Platform-Next",
-    source_website: ["ai-platform-jaxo.vercel.app"],
+    image: health,
+    source_code_link: "https://github.com/YaroSK26/Healthity",
+    source_website: ["https://healthity.vercel.app"],
   },
   {
     name: "Spotify-clone",
