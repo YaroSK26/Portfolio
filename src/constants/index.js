@@ -228,7 +228,7 @@ const projects = [
     ],
     image: health,
     source_code_link: "https://github.com/YaroSK26/Healthity",
-    source_website: ["https://healthity.vercel.app"],
+    source_website: ["healthity.vercel.app"],
   },
   {
     name: "Spotify-clone",
@@ -236,7 +236,7 @@ const projects = [
       "Add songs to this website and enjoy listening to your own  tracks or songs that have been added by other people. You can change the volume of songs, change song to next or stop them completely.",
     tags: [
       {
-        name: "nextjs",
+        name: "next.js",
         color: "blue-text-gradient",
       },
       {
