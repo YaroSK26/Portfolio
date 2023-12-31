@@ -23,6 +23,9 @@ import {
   shopify,
   eshop,
   spotifyClone,
+  trust,
+  chatgpt,
+  fcbani,
 } from "../assets";
 
 export const navLinks = [
@@ -209,9 +212,9 @@ const projects = [
     source_website: ["eshop-front-jaxo.vercel.app"],
   },
   {
-    name: "Healthity",
+    name: "Trust",
     description:
-      "App that will make you fit. Bmi, water checker or food tracker will convince you of the power of web technologies! Record your data and track your progress.Discover the power of Healthity. ",
+      "A website called Trust will help you build trust in friends, family, in yourself and most importantly in God. Being able to pray, read plans or communicate with people will get you on the right path.",
     tags: [
       {
         name: "next.js",
@@ -226,9 +229,9 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: health,
-    source_code_link: "https://github.com/YaroSK26/Healthity",
-    source_website: ["healthity.vercel.app"],
+    image: trust,
+    source_code_link: "https://github.com/YaroSK26/trust",
+    source_website: ["jaroslav-trust.vercel.app"],
   },
   {
     name: "Spotify-clone",
@@ -251,6 +254,68 @@ const projects = [
     image: spotifyClone,
     source_code_link: "https://github.com/YaroSK26/spotify-clone",
     source_website: ["spotify-clone-jaxo.vercel.app"],
+  },
+  {
+    name: "Healthity",
+    description:
+      "App that will make you fit. Bmi, water checker or food tracker will convince you of the power of web technologies! Record your data and track your progress.Discover the power of Healthity. ",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: health,
+    source_code_link: "https://github.com/YaroSK26/Healthity",
+    source_website: ["healthity.vercel.app"],
+  },
+  {
+    name: "AI Platform",
+    description:
+      "On this  beatiful AI page you can generate text, images, videos, music and code! There are 5 free generations waiting for you  but  also you can pay for an upgrade for unlimited generations. ",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "prisma",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: chatgpt,
+    source_code_link: "https://github.com/YaroSK26/AI-Platform-Next",
+    source_website: ["ai-platform-jaxo.vercel.app"],
+  },
+  {
+    name: "FC Bäni",
+    description:
+      "FC Bäni's imaginary football page can enchant you and bring you back to your passion for football. Rich history, experienced players and a huge community of fans will literally make you happier.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fcbani,
+    source_code_link: "https://github.com/YaroSK26/FC-Bani-Next",
+    source_website: ["https://fc-bani.vercel.app"],
   },
 ];
 

@@ -24,10 +24,12 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import chatgpt from "./chatgpt.png"
+import fcbani from "./fcbani.png"
 import eshop from "./eshop.png";
 import health from "./health.png";
 import spotifyClone from "./spotifyClone.png";
+import trust from "./trust.png";
 
 export {
   logo,
@@ -38,7 +40,7 @@ export {
   github,
   menu,
   close,
-
+  chatgpt,
   css,
   html,
   javascript,
@@ -52,7 +54,6 @@ export {
   prisma,
   python,
   supabase,
-
   meta,
   shopify,
   starbucks,
@@ -60,4 +61,6 @@ export {
   eshop,
   health,
   spotifyClone,
+  trust,
+  fcbani,
 };

@@ -251,3 +251,29 @@ nav ul li a:hover::after {
   }
   @apply h-screen
 }
+
+.button {
+    background-color: #1d125e;
+    color: #e4e7e7;
+    font-weight: bold;
+    text-transform: uppercase;
+    border: 1px solid #e4e7e7;
+    outline: none;
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    transition: all .5s ease;
+}
+
+@media only screen and (max-width: 350px) {
+    .button {
+        width: 125px;
+        height: 45px;
+    }
+}
+
+.button:hover{
+    box-shadow: #e4e7e7 0px 2px 29px 0px;
+    color: #e4e7e7;
+    transition: all .5s ease;
+}
