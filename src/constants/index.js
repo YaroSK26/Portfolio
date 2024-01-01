@@ -315,7 +315,7 @@ const projects = [
     ],
     image: fcbani,
     source_code_link: "https://github.com/YaroSK26/FC-Bani-Next",
-    source_website: ["https://fc-bani.vercel.app"],
+    source_website: ["fc-bani.vercel.app"],
   },
 ];
 
