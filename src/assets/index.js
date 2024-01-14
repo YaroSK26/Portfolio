@@ -26,6 +26,7 @@ import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import chatgpt from "./chatgpt.png"
 import fcbani from "./fcbani.png"
+import flapi from "./flappy.png"
 import eshop from "./eshop.png";
 import health from "./health.png";
 import spotifyClone from "./spotifyClone.png";
@@ -63,4 +64,5 @@ export {
   spotifyClone,
   trust,
   fcbani,
+  flapi,
 };

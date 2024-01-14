@@ -26,6 +26,7 @@ import {
   trust,
   chatgpt,
   fcbani,
+  flapi,
 } from "../assets";
 
 export const navLinks = [
@@ -278,6 +279,28 @@ const projects = [
     source_website: ["healthity.vercel.app"],
   },
   {
+    name: "FC Bäni",
+    description:
+      "FC Bäni's imaginary football page can enchant you and bring you back to your passion for football. Rich history, experienced players and a huge community of fans will literally make you happier.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: fcbani,
+    source_code_link: "https://github.com/YaroSK26/FC-Bani-Next",
+    source_website: ["fc-bani.vercel.app"],
+  },
+  {
     name: "AI Platform",
     description:
       "On this  beatiful AI page you can generate text, images, videos, music and code! There are 5 free generations waiting for you  but  also you can pay for an upgrade for unlimited generations. ",
@@ -300,22 +323,18 @@ const projects = [
     source_website: ["ai-platform-jaxo.vercel.app"],
   },
   {
-    name: "FC Bäni",
+    name: "Flappi",
     description:
-      "FC Bäni's imaginary football page can enchant you and bring you back to your passion for football. Rich history, experienced players and a huge community of fans will literally make you happier.",
+      "This game called Flappi is a funny imitation of the famous Flappy bird game. Game also has a Hungarian version and many other features! To play, download the dist folder from the link or run the flappi.py file.",
     tags: [
       {
-        name: "next.js",
+        name: "python",
         color: "blue-text-gradient",
       },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
     ],
-    image: fcbani,
-    source_code_link: "https://github.com/YaroSK26/FC-Bani-Next",
-    source_website: ["fc-bani.vercel.app"],
+    image: flapi,
+    source_code_link: "https://github.com/YaroSK26/Flappy-Bird-UDP",
+    source_website: ["bit.ly/3tCnXoS"],
   },
 ];
 
