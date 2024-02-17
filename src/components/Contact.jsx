@@ -86,6 +86,7 @@ const Contact = ({swal}) => {
               id="name"
               value={form.name}
               onChange={handleChange}
+              autocomplete="off"  
               placeholder="What's your name?"
               className="bg-teriary py-4 px-6  placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               required
@@ -99,6 +100,7 @@ const Contact = ({swal}) => {
               id="email"
               value={form.email}
               onChange={handleChange}
+              autocomplete="off"
               placeholder="What's your email?"
               className="bg-teriary py-4 px-6  placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               required
@@ -113,6 +115,7 @@ const Contact = ({swal}) => {
               id="message"
               value={form.message}
               onChange={handleChange}
+              autocomplete="off"
               placeholder="What do you want to say?"
               className=" resize-none bg-teriary py-4 px-6  placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               required
@@ -131,11 +134,11 @@ const Contact = ({swal}) => {
         
       )} */}
       <motion.div
-          variants={slideIn("right", "tween", 0.2, 1)}
-          className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] "
-        >
-          <EarthCanvas />
-        </motion.div>
+        variants={slideIn("right", "tween", 0.2, 1)}
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] "
+      >
+        <EarthCanvas />
+      </motion.div>
     </div>
   );
 }

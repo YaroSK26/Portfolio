@@ -1,14 +1,27 @@
 
 import { useEffect, useState } from "react"
-import { Link } from "react-router-dom"
+import { Link, useLocation } from "react-router-dom";
 import {styles} from "../styles"
 import {navLinks} from "../constants"
 import {logo,menu,close} from "../assets"
 
 const Navbar = () => {
-  const [active, setActive] = useState("")
-  const [toggle, setToggle] = useState(false)
-  
+  const [active, setActive] = useState("");
+  const [toggle, setToggle] = useState(false);
+
+  // Get the current location
+  const location = useLocation();
+
+  // Determine if we're at the homepage
+  const isHomePage = location.pathname === "/";
+
+  // Update the navigation links based on the current location
+  useEffect(() => {
+    if (!isHomePage) {
+      setActive("Home");
+    }
+  }, [location, isHomePage]);
+
   return (
     <nav
       className={`${styles.paddingX} w-full flex jus items-center py-3 fixed top-0 z-20 bg-primary`}
@@ -57,17 +70,23 @@ const Navbar = () => {
           </div>
         </Link>
         <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((link) => (
-            <li
-              key={link.id}
-              className={`${
-                active === link.title ? "text-white" : "text-secondary "
-              } font-medium cursor-pointer hover:text-white text-[18px]`}
-              onClick={() => setActive(link.title)}
-            >
-              <a href={`#${link.id}`}> {link.title}</a>
+          {isHomePage ? (
+            navLinks.map((link) => (
+              <li
+                key={link.id}
+                className={`${
+                  active === link.title ? "text-white" : "text-secondary"
+                } font-medium cursor-pointer hover:text-white text-[18px]`}
+                onClick={() => setActive(link.title)}
+              >
+                <a href={`#${link.id}`}>{link.title}</a>
+              </li>
+            ))
+          ) : (
+            <li className="text-secondary font-medium cursor-pointer hover:text-white text-[18px]">
+              <Link to="/">Home</Link>
             </li>
-          ))}
+          )}
         </ul>
         <div className="sm:hidden flex flex-1 justify-end items-center">
           <img
@@ -83,20 +102,34 @@ const Navbar = () => {
             } p-6 black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] z-10 rounded-xl`}
           >
             <ul className="list-none flex  justify-end items-start flex-col  gap-4">
-              {navLinks.map((link) => (
-                <li
-                  key={link.id}
-                  className={`${
-                    active === link.title ? "text-white" : "text-secondary "
-                  } font-poppins font-medium cursor-pointer hover:text-white text-[18px]`}
-                  onClick={() => {
-                    setActive(link.title);
-                    setToggle(!toggle);
-                  }}
-                >
-                  <a href={`#${link.id}`}> {link.title}</a>
+              {isHomePage ? (
+                navLinks.map((link) => (
+                  <li
+                    key={link.id}
+                    className={`${
+                      active === link.title ? "text-white" : "text-secondary "
+                    } font-poppins font-medium cursor-pointer hover:text-white text-[18px]`}
+                    onClick={() => {
+                      setActive(link.title);
+                      setToggle(!toggle);
+                    }}
+                  >
+                    <a href={`#${link.id}`}> {link.title}</a>
+                  </li>
+                ))
+              ) : (
+                <li className="text-secondary font-poppins font-medium cursor-pointer hover:text-white text-[18px]">
+                  <Link
+                    to="/"
+                    onClick={() => {
+                      setActive("Home");
+                      setToggle(!toggle);
+                    }}
+                  >
+                    Home
+                  </Link>
                 </li>
-              ))}
+              )}
             </ul>
           </div>
         </div>
