@@ -232,7 +232,7 @@ const projects = [
     ],
     image: trust,
     source_code_link: "https://github.com/YaroSK26/trust",
-    source_website: ["jaroslav-trust.vercel.app"],
+    source_website: ["trust-god.vercel.app"],
   },
   {
     name: "Spotify-clone",
@@ -298,7 +298,7 @@ const projects = [
     ],
     image: fcbani,
     source_code_link: "https://github.com/YaroSK26/FC-Bani-Next",
-    source_website: ["fc-bani.vercel.app"],
+    source_website: ["fc-bani.eu"],
   },
   {
     name: "AI Platform",
