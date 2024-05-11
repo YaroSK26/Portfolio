@@ -298,7 +298,7 @@ const projects = [
     ],
     image: fcbani,
     source_code_link: "https://github.com/YaroSK26/FC-Bani-Next",
-    source_website: ["fc-bani.eu"],
+    source_website: ["fcbani.eu"],
   },
   {
     name: "AI Platform",
