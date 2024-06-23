@@ -23,6 +23,7 @@ import {
   shopify,
   eshop,
   spotifyClone,
+  Apollo11,
   trust,
   chatgpt,
   fcbani,
@@ -233,6 +234,28 @@ const projects = [
     image: trust,
     source_code_link: "https://github.com/YaroSK26/trust",
     source_website: ["trust-god.vercel.app"],
+  },
+  {
+    name: "Apollo 11",
+    description:
+      "This page is dedicated to the Apollo 11 mission, the first successful human landing on the Moon.  it  is an excellent resource for space enthusiasts and history aficionados alike.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "gsap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: Apollo11,
+    source_code_link: "https://github.com/YaroSK26/Apollo11",
+    source_website: ["https://mission-apollo11.vercel.app"],
   },
   {
     name: "Spotify-clone",

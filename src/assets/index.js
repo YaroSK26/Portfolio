@@ -30,6 +30,7 @@ import flapi from "./Flappy.png"
 import eshop from "./eshop.png";
 import health from "./health.png";
 import spotifyClone from "./spotifyClone.png";
+import Apollo11 from "./apollo11.png";
 import trust from "./trust.png";
 
 export {
@@ -62,6 +63,7 @@ export {
   eshop,
   health,
   spotifyClone,
+  Apollo11,
   trust,
   fcbani,
   flapi,
