@@ -323,28 +323,28 @@ const projects = [
     source_code_link: "https://github.com/YaroSK26/FC-Bani-Next",
     source_website: ["fcbani.eu"],
   },
-  {
-    name: "AI Platform",
-    description:
-      "On this  beatiful AI page you can generate text, images, videos, music and code! There are 5 free generations waiting for you  but  also you can pay for an upgrade for unlimited generations. ",
-    tags: [
-      {
-        name: "next.js",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "prisma",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: chatgpt,
-    source_code_link: "https://github.com/YaroSK26/AI-Platform-Next",
-    source_website: ["ai-platform-jaxo.vercel.app"],
-  },
+  // {
+  //   name: "AI Platform",
+  //   description:
+  //     "On this  beatiful AI page you can generate text, images, videos, music and code! There are 5 free generations waiting for you  but  also you can pay for an upgrade for unlimited generations. ",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "blue-text-gradient",
+  //     },
+  //     {
+  //       name: "prisma",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "pink-text-gradient",
+  //     },
+  //   ],
+  //   image: chatgpt,
+  //   source_code_link: "https://github.com/YaroSK26/AI-Platform-Next",
+  //   source_website: ["ai-platform-jaxo.vercel.app"],
+  // },
   {
     name: "Flappi",
     description:
