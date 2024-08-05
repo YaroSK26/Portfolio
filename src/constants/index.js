@@ -28,6 +28,7 @@ import {
   chatgpt,
   fcbani,
   flapi,
+  todo
 } from "../assets";
 
 export const navLinks = [
@@ -47,8 +48,12 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Frontend Developer",
     icon: web,
+  },
+  {
+    title: "Backend Developer",
+    icon: backend,
   },
   {
     title: "UX/UI Designer",
@@ -57,10 +62,6 @@ const services = [
   {
     title: "Web analyst",
     icon: mobile,
-  },
-  {
-    title: "Backend Developer",
-    icon: backend,
   },
 ];
 
@@ -358,6 +359,28 @@ const projects = [
     image: flapi,
     source_code_link: "https://github.com/YaroSK26/Flappy-Bird-UDP",
     source_website: ["bit.ly/3tCnXoS"],
+  },
+  {
+    name: "Student Management",
+    description:
+      "This project is a basic to-do website developed using the Java framework Spring Boot, with data stored in an SQL database. To run the application, start both the frontend and backend projects.",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "spring_boot",
+        color: "green-text-gradient",
+      },
+      {
+        name: "sql",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: todo,
+    source_code_link: "https://github.com/YaroSK26/springBoot-react-todo",
+    source_website: ["bit.ly/3WzkD8x"],
   },
 ];
 

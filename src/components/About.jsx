@@ -47,11 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
-        I'm a skilled developer with  much experience in JavaScript, and
-        expertise in frameworks like React, Next.js, and Three.js. I'm a quick
-        learner and can collaborate closely with clients to create efficient,
-        scalable, and user-friendly solutions that solve real-world problems.
-        Let's work together to bring your ideas to life!
+  I'm a skilled junior developer with experience in both frontend and backend development. I have expertise in JavaScript, and frameworks like React, Next.js, and Three.js. On the backend, I am proficient in Node.js, Python, and have experience with SQL and NoSQL databases. I'm a quick learner and can collaborate closely with clients to create efficient, scalable, and user-friendly solutions that solve real-world problems. Let's work together to bring your ideas to life!
       </motion.p>
 
       <div className="mt-20 flex flex-wrap justify-center gap-10">
