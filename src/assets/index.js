@@ -33,6 +33,7 @@ import spotifyClone from "./spotifyClone.png";
 import Apollo11 from "./apollo11.png";
 import trust from "./trust.png";
 import todo from "./todo.png";
+import bible from "./bible.png"
 
 export {
   logo,
@@ -69,4 +70,5 @@ export {
   fcbani,
   flapi,
   todo,
+  bible,
 };

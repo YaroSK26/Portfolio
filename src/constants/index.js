@@ -28,7 +28,8 @@ import {
   chatgpt,
   fcbani,
   flapi,
-  todo
+  todo,
+  bible
 } from "../assets";
 
 export const navLinks = [
@@ -323,6 +324,30 @@ const projects = [
     image: fcbani,
     source_code_link: "https://github.com/YaroSK26/FC-Bani-Next",
     source_website: ["fcbani.eu"],
+  },
+
+  {
+    name: "Bible Story",
+    description:
+      "Bible Story: Journey of Faith is an platform that explores the key events and figures of the Bible. From the creation of the world to the life of Jesus Christ. Perfect for learning, inspiration, and deepening faith.",
+    tags: [
+      {
+        name: "next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: bible,
+    source_code_link:
+      "https://github.com/YaroSK26/Bible-Story-Journey-of-Faith",
+    source_website: ["bible-story.vercel.app"],
   },
   // {
   //   name: "AI Platform",
