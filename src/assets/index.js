@@ -13,12 +13,12 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.webp";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import supabase  from "./tech/supabase.png"
+import c  from "./tech/c.png"
 import tailwind from "./tech/tailwind.png";
 import threejs from "./tech/threejs.png";
 import nextjs from "./tech/nextjs.png";
 import php from "./tech/php.png";
-import prisma from "./tech/prisma.png";
+import sql from "./tech/sql.png";
 import python from "./tech/python.png";
 import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
@@ -55,9 +55,9 @@ export {
   threejs,
   nextjs,
   php,
-  prisma,
+  sql,
   python,
-  supabase,
+  c,
   meta,
   shopify,
   starbucks,

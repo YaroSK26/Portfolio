@@ -13,9 +13,9 @@ import {
   mongodb,
   nextjs,
   php,
-  prisma,
+  sql,
   python,
-  supabase,
+  c,
   threejs,
   meta,
   starbucks,
@@ -100,8 +100,8 @@ const technologies = [
 
   { name: "php", icon: php },
   { name: "python", icon: python },
-  { name: "supabase", icon: supabase },
-  { name: "prisma", icon: prisma },
+  { name: "c", icon: c },
+  { name: "sql", icon: sql },
 
   {
     name: "MongoDB",
