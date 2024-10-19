@@ -33,7 +33,9 @@ import spotifyClone from "./spotifyClone.png";
 import Apollo11 from "./apollo11.png";
 import trust from "./trust.png";
 import todo from "./todo.png";
-import bible from "./bible.png"
+import bible from "./bible.png";
+import h2o from "./h2o.png";
+import kiko from "./kiko.png";
 
 export {
   logo,
@@ -71,4 +73,6 @@ export {
   flapi,
   todo,
   bible,
+  h2o,
+  kiko
 };

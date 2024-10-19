@@ -29,7 +29,9 @@ import {
   fcbani,
   flapi,
   todo,
-  bible
+  bible,
+  h2o,
+  kiko
 } from "../assets";
 
 export const navLinks = [
@@ -199,7 +201,7 @@ const projects = [
     tags: [
       {
         name: "next.js",
-        color: "blue-text-gradient",
+        color: "black-text-gradient",
       },
       {
         name: "mongoDB",
@@ -207,7 +209,7 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: eshop,
@@ -222,7 +224,7 @@ const projects = [
     tags: [
       {
         name: "next.js",
-        color: "blue-text-gradient",
+        color: "black-text-gradient",
       },
       {
         name: "mongoDB",
@@ -230,7 +232,7 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: trust,
@@ -244,7 +246,7 @@ const projects = [
     tags: [
       {
         name: "next.js",
-        color: "blue-text-gradient",
+        color: "black-text-gradient",
       },
       {
         name: "gsap",
@@ -252,7 +254,7 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: Apollo11,
@@ -266,7 +268,7 @@ const projects = [
     tags: [
       {
         name: "next.js",
-        color: "blue-text-gradient",
+        color: "black-text-gradient",
       },
       {
         name: "supabase",
@@ -274,7 +276,7 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: spotifyClone,
@@ -288,7 +290,7 @@ const projects = [
     tags: [
       {
         name: "next.js",
-        color: "blue-text-gradient",
+        color: "black-text-gradient",
       },
       {
         name: "mongoDB",
@@ -296,7 +298,7 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: health,
@@ -310,7 +312,7 @@ const projects = [
     tags: [
       {
         name: "next.js",
-        color: "blue-text-gradient",
+        color: "black-text-gradient",
       },
       {
         name: "mongoDB",
@@ -318,12 +320,35 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: fcbani,
     source_code_link: "https://github.com/YaroSK26/FC-Bani-Next",
     source_website: ["fcbani.eu"],
+  },
+
+  {
+    name: "H2o Systems",
+    description:
+      "Website for a company engaged in the production, sale and service of water treatment systems of the highest quality.   They place great emphasis on expertise and the quality of their supplied equipment.",
+    tags: [
+      {
+        name: "html",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "javascript",
+        color: "orange-text-gradient",
+      },
+    ],
+    image: h2o,
+    source_code_link: "https://github.com/YaroSK26/h2o-systems",
+    source_website: ["h2osystems.tech"],
   },
 
   {
@@ -333,7 +358,7 @@ const projects = [
     tags: [
       {
         name: "next.js",
-        color: "blue-text-gradient",
+        color: "black-text-gradient",
       },
       {
         name: "mongoDB",
@@ -341,7 +366,7 @@ const projects = [
       },
       {
         name: "tailwind",
-        color: "pink-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: bible,
@@ -372,6 +397,28 @@ const projects = [
   //   source_website: ["ai-platform-jaxo.vercel.app"],
   // },
   {
+    name: "Felix Gray portfolio",
+    description:
+      "Creation of a website – portfolio for a young writer and photographer. On the site, you will find his work, a gallery of his photos, and probably also some inspiration for your daily life.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: kiko,
+    source_code_link: "https://github.com/YaroSK26/kiko-portfolio",
+    source_website: ["kiko-portfolio.vercel.app"],
+  },
+  {
     name: "Flappi",
     description:
       "This game called Flappi is a funny imitation of the famous Flappy bird game. Game also has a Hungarian version and many other features! To play, download the dist folder from the link or run the flappi.py file.",
@@ -399,8 +446,8 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "sql",
-        color: "pink-text-gradient",
+        name: "mySQL",
+        color: "orange-text-gradient",
       },
     ],
     image: todo,
