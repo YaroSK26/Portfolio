@@ -415,8 +415,7 @@ const projects = [
       },
     ],
     image: kiko,
-    source_code_link: "https://github.com/YaroSK26/kiko-portfolio",
-    source_website: ["kiko-portfolio.vercel.app"],
+    source_website: ["felixgray.eu"],
   },
   {
     name: "Flappi",
