@@ -1,69 +1,68 @@
-import {useState, useRef} from "react"
-import { motion } from "framer-motion"
-import emailjs from "@emailjs/browser"
-import { styles } from "../styles"
-import { EarthCanvas } from "./canvas"
+import { useState, useRef } from "react";
+import { motion } from "framer-motion";
+import emailjs from "@emailjs/browser";
+import { styles } from "../styles";
+import { EarthCanvas } from "./canvas";
+import { Instagram } from "lucide-react";
+import { slideIn } from "../utils/motion";
+import { toast } from "react-hot-toast";
+import { withSwal } from "react-sweetalert2";
 
-import { slideIn } from "../utils/motion"
-import { toast } from "react-hot-toast"
-import { withSwal } from "react-sweetalert2"
-
-
-const Contact = ({swal}) => {
-  const formRef = useRef()
+const Contact = ({ swal }) => {
+  const formRef = useRef();
   const [form, setForm] = useState({
     name: "",
     email: "",
     message: "",
-  })
-  const [loading, setLoading] = useState(false)
+  });
+  const [loading, setLoading] = useState(false);
 
-  const handleChange =  (e) => {
-      const {name,value } = e.target
-
-      setForm({...form, [name] : value})
-  }
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
 
+    emailjs
+      .send(
+        "service_81tw9xw",
+        "template_m37okw1",
+        {
+          from_name: form.name,
+          to_name: "Jaroslav",
+          from_email: form.email,
+          to_email: "jaroba0@gmail.com",
+          message: form.message,
+        },
+        "ao9Pnvt-EA8-h9gBU"
+      )
+      .then(
+        () => {
+          setLoading(false);
+          swal.fire({
+            title: "Thank you for your email",
+            text: "We will send you a feedback soon!",
+            icon: "success",
+          });
 
-    emailjs.send(
-      "service_81tw9xw",
-      "template_m37okw1",
-      {
-        from_name: form.name,
-        to_name: "Jaroslav",
-        from_email: form.email,
-        to_email: "jaroba0@gmail.com",
-        message: form.message,
-      },
-      "ao9Pnvt-EA8-h9gBU"
-    ).then(() => {
-      setLoading(false);
-      swal.fire({
-        title: "Thank you for your email",
-        text: "We will send you a feedback soon!",
-        icon: "success",
-      });
-      
+          setForm({
+            name: "",
+            email: "",
+            message: "",
+          });
+        },
+        (error) => {
+          setLoading(false);
+          console.log(error);
 
-      setForm({
-        name: "",
-        email: "",
-        message: "",
-      })
-    }, (error) => {
-      setLoading(false);
-      console.log(error);
-
-      toast.error(
-        "Something went wrong."
+          toast.error("Something went wrong.");
+        }
       );
-    }
-    )
   };
+
   return (
     <div className="xl:mt-12 flex xl:flex-row flex-col-reverse gap-10 overflow-hidden">
       <motion.div
@@ -72,6 +71,19 @@ const Contact = ({swal}) => {
       >
         <p className={styles.sectionSubText}>Get in touch</p>
         <h2 className={styles.sectionHeadText}> Contact.</h2>
+
+        {/* Add Instagram Link */}
+        <div className="mt-4">
+          <a
+            href="https://www.instagram.com/jaroslav_barabas/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-white hover:text-purple-400 transition-colors duration-300"
+          >
+            <Instagram size={24} />
+            <span className="font-medium">Follow me on Instagram</span>
+          </a>
+        </div>
 
         <form
           className="mt-12 flex flex-col gap-8"
@@ -130,9 +142,6 @@ const Contact = ({swal}) => {
         </form>
       </motion.div>
 
-      {/* {window.innerWidth > 1280 && (
-        
-      )} */}
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] "
@@ -141,6 +150,6 @@ const Contact = ({swal}) => {
       </motion.div>
     </div>
   );
-}
+};
 
-export default withSwal(Contact)
+export default withSwal(Contact);
