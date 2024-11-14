@@ -1,5 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom"
-import {About,  Experience, Feedbacks,Hero, Navbar,Tech,Works ,StarsCanvas } from "./components"
+import {About,  Experience, Feedbacks,Hero, Navbar,Tech,Works ,StarsCanvas ,Awards} from "./components"
 import ContactWrapper from "./components/ContactWrapper"
 import { CrispProvider } from "./components/CrispProvider"
 import TechMobile from "./components/TechMobile";
@@ -25,13 +25,11 @@ function App() {
                   </div>
                   <About />
                   {/* <Experience /> */}
-
                   <Works />
-
                   {window.innerWidth > 1280 && <Tech />}
                   {window.innerWidth < 1280 && <TechMobile />}
                   {/* <Feedbacks /> */}
-
+                  <Awards></Awards>
                   <div className="relative  z-0">
                     <ContactWrapper />
                     {window.innerWidth > 1280 && <StarsCanvas />}
