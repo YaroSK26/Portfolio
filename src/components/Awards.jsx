@@ -122,7 +122,13 @@ const Awards = () => {
       description: "Technical Certificate",
       icon: ScrollText,
     },
-    
+
+    {
+      type: "certificate",
+      title: "Cisco Introduction to Cybersecurity 2024",
+      description: "Technical Certificate",
+      icon: ScrollText,
+    },
   ];
 
   return (
