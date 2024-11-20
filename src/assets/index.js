@@ -36,6 +36,8 @@ import todo from "./todo.png";
 import bible from "./bible.png";
 import h2o from "./h2o.png";
 import kiko from "./kiko.png";
+import kemax from "./kemax.png";
+import srdcomitelom from "./srdcomitelom.png"
 
 export {
   logo,
@@ -74,5 +76,7 @@ export {
   todo,
   bible,
   h2o,
-  kiko
+  kiko,
+  kemax,
+  srdcomitelom
 };

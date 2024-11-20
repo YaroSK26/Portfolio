@@ -31,7 +31,9 @@ import {
   todo,
   bible,
   h2o,
-  kiko
+  kiko,
+  kemax,
+  srdcomitelom,
 } from "../assets";
 
 export const navLinks = [
@@ -195,9 +197,9 @@ const testimonials = [
 
 const projects = [
   {
-    name: "E-commerce",
+    name: "Srdcom i telom",
     description:
-      "This page is an imitation of e-commerce where customers can add products to their cart, add product to their wishlist, etc. All functions are controlled from the admin dashboard and can be changed easily.",
+      "Slovak e-shop offering stylish and functional t-shirts with Christian and fitness motifs. Combining faith and fitness, our designs allow you to express your values ​​while embracing an active lifestyle - Where the heart and body come together as one.",
     tags: [
       {
         name: "next.js",
@@ -212,11 +214,11 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: eshop,
-    source_code_link:
-      "https://github.com/YaroSK26/eshop-nextjs-tailwind-mongoDB-react-front",
-    source_website: ["eshop-front-jaxo.vercel.app"],
+    image: srdcomitelom,
+    source_website: ["srdcomitelom.store"],
+    for: "company",
   },
+
   {
     name: "Trust",
     description:
@@ -238,6 +240,7 @@ const projects = [
     image: trust,
     source_code_link: "https://github.com/YaroSK26/trust",
     source_website: ["trust-god.vercel.app"],
+    for: "myself",
   },
   {
     name: "Apollo 11",
@@ -260,6 +263,31 @@ const projects = [
     image: Apollo11,
     source_code_link: "https://github.com/YaroSK26/Apollo11",
     source_website: ["mission-apollo11.vercel.app"],
+    for: "myself",
+  },
+  {
+    name: "E-commerce",
+    description:
+      "This page is an imitation of e-commerce where customers can add products to their cart, add product to their wishlist, etc. All functions are controlled from the admin dashboard and can be changed easily.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: eshop,
+    source_code_link:
+      "https://github.com/YaroSK26/eshop-nextjs-tailwind-mongoDB-react-front",
+    source_website: ["eshop-front-jaxo.vercel.app"],
+    for: "myself",
   },
   {
     name: "Spotify-clone",
@@ -282,52 +310,27 @@ const projects = [
     image: spotifyClone,
     source_code_link: "https://github.com/YaroSK26/spotify-clone",
     source_website: ["spotify-clone-jaxo.vercel.app"],
+    for: "myself",
   },
   {
-    name: "Healthity",
+    name: "Kemax",
     description:
-      "App that will make you fit. Bmi, water checker or food tracker will convince you of the power of web technologies! Record your data and track your progress.Discover the power of Healthity. ",
+      "page for the company kemax. A company with more than 20 years of tradition in the production of sheet metal products. The company specializes in the production of high-quality sheet metal components for various industries.",
     tags: [
       {
         name: "next.js",
         color: "black-text-gradient",
       },
       {
-        name: "mongoDB",
-        color: "green-text-gradient",
-      },
-      {
         name: "tailwind",
         color: "blue-text-gradient",
       },
     ],
-    image: health,
-    source_code_link: "https://github.com/YaroSK26/Healthity",
-    source_website: ["healthity.vercel.app"],
+    image: kemax,
+    source_code_link: "https://github.com/YaroSK26/kemax",
+    source_website: ["kemax.vercel.app"],
+    for: "company",
   },
-  {
-    name: "FC Bäni",
-    description:
-      "FC Bäni's imaginary football page can enchant you and bring you back to your passion for football. Rich history, experienced players and a huge community of fans will literally make you happier.",
-    tags: [
-      {
-        name: "next.js",
-        color: "black-text-gradient",
-      },
-      {
-        name: "mongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: fcbani,
-    source_code_link: "https://github.com/YaroSK26/FC-Bani-Next",
-    source_website: ["fcbani.eu"],
-  },
-
   {
     name: "H2o Systems",
     description:
@@ -349,8 +352,8 @@ const projects = [
     image: h2o,
     source_code_link: "https://github.com/YaroSK26/h2o-systems",
     source_website: ["h2osystems.tech"],
+    for: "company",
   },
-
   {
     name: "Bible Story",
     description:
@@ -373,7 +376,55 @@ const projects = [
     source_code_link:
       "https://github.com/YaroSK26/Bible-Story-Journey-of-Faith",
     source_website: ["bible-story.vercel.app"],
+    for: "myself",
   },
+  {
+    name: "Felix Gray portfolio",
+    description:
+      "Creation of a website – portfolio for a young writer and photographer. On the site, you will find his work, a gallery of his photos, and probably also some inspiration for your daily life.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: kiko,
+    source_website: ["felixgray.eu"],
+    for: "company",
+  },
+
+  {
+    name: "Healthity",
+    description:
+      "App that will make you fit. Bmi, water checker or food tracker will convince you of the power of web technologies! Record your data and track your progress.Discover the power of Healthity. ",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: health,
+    source_code_link: "https://github.com/YaroSK26/Healthity",
+    source_website: ["healthity.vercel.app"],
+    for: "myself",
+  },
+
   // {
   //   name: "AI Platform",
   //   description:
@@ -397,9 +448,9 @@ const projects = [
   //   source_website: ["ai-platform-jaxo.vercel.app"],
   // },
   {
-    name: "Felix Gray portfolio",
+    name: "FC Bäni",
     description:
-      "Creation of a website – portfolio for a young writer and photographer. On the site, you will find his work, a gallery of his photos, and probably also some inspiration for your daily life.",
+      "FC Bäni's imaginary football page can enchant you and bring you back to your passion for football. Rich history, experienced players and a huge community of fans will literally make you happier.",
     tags: [
       {
         name: "next.js",
@@ -414,9 +465,12 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: kiko,
-    source_website: ["felixgray.eu"],
+    image: fcbani,
+    source_code_link: "https://github.com/YaroSK26/FC-Bani-Next",
+    source_website: ["fcbani.eu"],
+    for: "myself",
   },
+
   {
     name: "Flappi",
     description:
@@ -430,6 +484,7 @@ const projects = [
     image: flapi,
     source_code_link: "https://github.com/YaroSK26/Flappy-Bird-UDP",
     source_website: ["bit.ly/3tCnXoS"],
+    for: "myself",
   },
   {
     name: "Student Management",
@@ -452,6 +507,7 @@ const projects = [
     image: todo,
     source_code_link: "https://github.com/YaroSK26/springBoot-react-todo",
     source_website: ["bit.ly/3WzkD8x"],
+    for: "myself",  
   },
 ];
 
