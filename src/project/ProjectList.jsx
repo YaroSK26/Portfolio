@@ -174,7 +174,7 @@ const Works = () => {
       </div>
 
       <div className="flex justify-center items-center">
-        <Link to="/" className="button justify-center flex items-center mt-20">
+        <Link to="/" className=" button justify-center flex items-center mt-20">
           Go Back
         </Link>
       </div>

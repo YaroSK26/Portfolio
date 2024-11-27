@@ -99,12 +99,14 @@ const Works = () => {
           <ProjectCard key={`project.${index}`} index={index} {...project} />
         ))}
       </div>
-      <Link
-        to="/project"
-        className="flex justify-center items-center pt-12"
-      >
-        <button className="button">See other projects...</button>
-      </Link>
+      <div className="flex justify-center items-center">
+        <Link
+          to="/project"
+          className="button justify-center flex items-center mt-20 text-center"
+        >
+          See other projects
+        </Link>
+      </div>
     </>
   );
 }
