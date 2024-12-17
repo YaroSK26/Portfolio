@@ -328,7 +328,7 @@ const projects = [
     ],
     image: kemax,
     source_code_link: "https://github.com/YaroSK26/kemax",
-    source_website: ["kemax.vercel.app"],
+    source_website: ["kemax.sk"],
     for: "company",
   },
   {
