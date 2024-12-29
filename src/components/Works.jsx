@@ -28,7 +28,7 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl scale-105"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex top-3 -right-3 justify-end m-3 card-img_hover">
             {source_code_link && (
               <div
                 onClick={() => window.open(source_code_link, "_blank")}

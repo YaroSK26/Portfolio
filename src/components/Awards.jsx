@@ -50,12 +50,9 @@ const AwardCard = ({ index, title, description, type, icon: Icon }) => {
 };
 
 const CategorySection = ({ title, items, icon: Icon }) => (
-  <div
-
-    className="mb-12"
-  >
+  <div className="mb-12">
     <div className="flex items-center gap-3 mb-6">
-      <Icon className="w-8 h-8 text-blue-500" />
+      <Icon className="w-8 h-8 text-[#1D125E] " />
       <h2 className="text-2xl font-bold text-white">{title}</h2>
     </div>
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -133,8 +130,8 @@ const Awards = () => {
 
   return (
     <div className="min-h-screen  py-12">
-      <div className="container mx-auto px-4">
-        <div className="text-center mb-12">
+      <div className="container  px-4">
+        <div className=" mb-12">
           <motion.div variants={textVariant()}>
             <p className={styles.sectionSubText}>
               Professional Achievements and Qualifications
@@ -171,4 +168,4 @@ const Awards = () => {
   );
 };
 
-export default SectionWrapper( Awards, "")
+export default SectionWrapper(Awards, "")

@@ -20,7 +20,7 @@ const ProjectCard = ({
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
       <Tilt
         options={{ max: 45, scale: 1, speed: 450 }}
-        className="bg-tertiary xxs:p-5 p-4 rounded-2xl xxs:w-[330px] xs:w-[360px]"
+        className="bg-tertiary xxs:p-5 p-4 rounded-2xl xxs:w-[330px] xs:w-[360px] "
       >
         <div className="relative w-full h-[230px]">
           <img
@@ -28,7 +28,7 @@ const ProjectCard = ({
             alt={name}
             className="w-full h-full object-cover rounded-2xl scale-105"
           />
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex top-3 -right-3 justify-end m-3 card-img_hover">
             <div>
               {source_code_link && (
                 <div
@@ -151,7 +151,7 @@ const Works = () => {
   });
 
   return (
-    <div className="bg-primary py-16">
+    <div className="bg-primary py-16 min-h-screen">
       <Navbar />
 
       <div className="flex justify-center md:flex-row flex-col items-center gap-5 mt-20">
@@ -168,9 +168,16 @@ const Works = () => {
       </div>
 
       <div className="mt-20 flex flex-wrap justify-center gap-7">
-        {filteredProjects.map((project, index) => (
-          <ProjectCard key={`project-${index}`} index={index} {...project} />
-        ))}
+        {filteredProjects.length > 0 ? (
+          filteredProjects.map((project, index) => (
+            <ProjectCard key={`project-${index}`} index={index} {...project} />
+          ))
+        ) : (
+          <p className="text-white text-[24px]">
+            I believe that in the future I will make a project with such a name
+            :)
+          </p>
+        )}
       </div>
 
       <div className="flex justify-center items-center">

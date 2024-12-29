@@ -34,6 +34,8 @@ import {
   kiko,
   kemax,
   srdcomitelom,
+  zadiel,
+  kurzy
 } from "../assets";
 
 export const navLinks = [
@@ -199,7 +201,7 @@ const projects = [
   {
     name: "Srdcom i telom",
     description:
-      "Slovak e-shop offering stylish and functional t-shirts with Christian and fitness motifs. Combining faith and fitness, our designs allow you to express your values ​​while embracing an active lifestyle - Where the heart and body come together as one.",
+      "E-shop offering stylish and functional t-shirts with Christian and fitness motifs. Combining faith and fitness, their designs allow you to express your values ​​while embracing an active lifestyle.",
     tags: [
       {
         name: "next.js",
@@ -290,6 +292,67 @@ const projects = [
     for: "myself",
   },
   {
+    name: "Jaroslav | Courses",
+    description:
+      "Explore a range of Next.js courses, from foundational concepts to building a full e-commerce application. These courses will help you master Next.js and other technologies. More courses coming soon.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "mongo",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: kurzy,
+    source_website: ["jaroslav-kurzy.vercel.app"],
+    for: "myself",
+  },
+
+  {
+    name: "Zadiel Hostel",
+    description:
+      "Zadiel Hostel offers comfortable and affordable accommodation in the heart of the Zadiel Valley. Enjoy the beautiful scenery and explore the numerous hiking trails in the area.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: zadiel,
+    source_code_link: "https://github.com/YaroSK26/Zadiel",
+    source_website: ["zadielhostel.eu"],
+    for: "company",
+  },
+  {
+    name: "Kemax",
+    description:
+      "website for the company kemax. A company with more than 20 years of tradition in the production of sheet metal products. The company specializes in the production of high-quality sheet metal components.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: kemax,
+    source_code_link: "https://github.com/YaroSK26/kemax",
+    source_website: ["kemax.sk"],
+    for: "company",
+  },
+  {
     name: "Spotify-clone",
     description:
       "Add songs to this website and enjoy listening to your own  tracks or songs that have been added by other people. You can change the volume of songs, change song to next or stop them completely.",
@@ -313,9 +376,9 @@ const projects = [
     for: "myself",
   },
   {
-    name: "Kemax",
+    name: "H2O Systems",
     description:
-      "page for the company kemax. A company with more than 20 years of tradition in the production of sheet metal products. The company specializes in the production of high-quality sheet metal components for various industries.",
+      "Website for a company engaged in the production, sale and service of water treatment systems of the highest quality.   They place great emphasis on expertise and the quality of their supplied equipment.",
     tags: [
       {
         name: "next.js",
@@ -326,31 +389,8 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: kemax,
-    source_code_link: "https://github.com/YaroSK26/kemax",
-    source_website: ["kemax.sk"],
-    for: "company",
-  },
-  {
-    name: "H2o Systems",
-    description:
-      "Website for a company engaged in the production, sale and service of water treatment systems of the highest quality.   They place great emphasis on expertise and the quality of their supplied equipment.",
-    tags: [
-      {
-        name: "html",
-        color: "pink-text-gradient",
-      },
-      {
-        name: "css",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "javascript",
-        color: "orange-text-gradient",
-      },
-    ],
     image: h2o,
-    source_code_link: "https://github.com/YaroSK26/h2o-systems",
+    source_code_link: "https://github.com/YaroSK26/h2osystems-next",
     source_website: ["h2osystems.tech"],
     for: "company",
   },
@@ -447,29 +487,29 @@ const projects = [
   //   source_code_link: "https://github.com/YaroSK26/AI-Platform-Next",
   //   source_website: ["ai-platform-jaxo.vercel.app"],
   // },
-  {
-    name: "FC Bäni",
-    description:
-      "FC Bäni's imaginary football page can enchant you and bring you back to your passion for football. Rich history, experienced players and a huge community of fans will literally make you happier.",
-    tags: [
-      {
-        name: "next.js",
-        color: "black-text-gradient",
-      },
-      {
-        name: "mongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: fcbani,
-    source_code_link: "https://github.com/YaroSK26/FC-Bani-Next",
-    source_website: ["fcbani.eu"],
-    for: "myself",
-  },
+  // {
+  //   name: "FC Bäni",
+  //   description:
+  //     "FC Bäni's imaginary football page can enchant you and bring you back to your passion for football. Rich history, experienced players and a huge community of fans will literally make you happier.",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "black-text-gradient",
+  //     },
+  //     {
+  //       name: "mongoDB",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: fcbani,
+  //   source_code_link: "https://github.com/YaroSK26/FC-Bani-Next",
+  //   source_website: ["fcbani.eu"],
+  //   for: "myself",
+  // },
 
   {
     name: "Flappi",
@@ -507,7 +547,7 @@ const projects = [
     image: todo,
     source_code_link: "https://github.com/YaroSK26/springBoot-react-todo",
     source_website: ["bit.ly/3WzkD8x"],
-    for: "myself",  
+    for: "myself",
   },
 ];
 

@@ -38,6 +38,8 @@ import h2o from "./h2o.png";
 import kiko from "./kiko.png";
 import kemax from "./kemax.png";
 import srdcomitelom from "./srdcomitelom.png"
+import zadiel from "./zadiel.png"
+import kurzy from "./kurz.png"
 
 export {
   logo,
@@ -78,5 +80,7 @@ export {
   h2o,
   kiko,
   kemax,
-  srdcomitelom
+  srdcomitelom,
+  zadiel,
+  kurzy
 };
