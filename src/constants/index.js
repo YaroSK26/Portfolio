@@ -35,7 +35,8 @@ import {
   kemax,
   srdcomitelom,
   zadiel,
-  kurzy
+  kurzy,
+  laraveleshop,
 } from "../assets";
 
 export const navLinks = [
@@ -526,6 +527,26 @@ const projects = [
     source_website: ["bit.ly/3tCnXoS"],
     for: "myself",
   },
+
+  {
+    name: "Laravel Eshop",
+    description:
+      "A simple eshop created via laravel - framework php. Basic functions such as payment via Stripe, shopping cart and last orders. To start the project, do not forget to turn on the server, for example xampp.",
+    tags: [
+      {
+        name: "laravel",
+        color: "orange-text-gradient",
+      },
+      {
+        name: "mySQL",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: laraveleshop,
+    source_code_link: "https://github.com/YaroSK26/laravel-eshop",
+    source_website: ["bit.ly/4gU4x24"],
+    for: "myself",
+  },
   {
     name: "Student Management",
     description:
@@ -541,7 +562,7 @@ const projects = [
       },
       {
         name: "mySQL",
-        color: "orange-text-gradient",
+        color: "blue-text-gradient",
       },
     ],
     image: todo,

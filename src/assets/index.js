@@ -40,6 +40,7 @@ import kemax from "./kemax.png";
 import srdcomitelom from "./srdcomitelom.png"
 import zadiel from "./zadiel.png"
 import kurzy from "./kurz.png"
+import laraveleshop from "./laraveleshop.png";
 
 export {
   logo,
@@ -82,5 +83,6 @@ export {
   kemax,
   srdcomitelom,
   zadiel,
-  kurzy
+  kurzy,
+  laraveleshop,
 };
