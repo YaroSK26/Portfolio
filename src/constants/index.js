@@ -302,7 +302,7 @@ const projects = [
         color: "black-text-gradient",
       },
       {
-        name: "mongo",
+        name: "mongoDB",
         color: "green-text-gradient",
       },
       {
