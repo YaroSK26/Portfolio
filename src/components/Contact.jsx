@@ -26,17 +26,21 @@ const Contact = ({ swal }) => {
     e.preventDefault();
     setLoading(true);
 
+    const templateParams = {
+      from_name: form.name,
+      to_name: "Jaroslav",
+      from_email: form.email,
+      to_email: "jaroba0@gmail.com",
+      message: form.message,
+      name: form.name, 
+      email: form.email,
+    };
+
     emailjs
       .send(
         "service_81tw9xw",
         "template_m37okw1",
-        {
-          from_name: form.name,
-          to_name: "Jaroslav",
-          from_email: form.email,
-          to_email: "jaroba0@gmail.com",
-          message: form.message,
-        },
+        templateParams,
         "ao9Pnvt-EA8-h9gBU"
       )
       .then(
@@ -56,8 +60,7 @@ const Contact = ({ swal }) => {
         },
         (error) => {
           setLoading(false);
-          console.log(error);
-
+          console.error("Error sending email:", error);
           toast.error("Something went wrong.");
         }
       );
@@ -70,9 +73,8 @@ const Contact = ({ swal }) => {
         className="flex-[0.75] bg-black-100 p-8 rounded-2xl"
       >
         <p className={styles.sectionSubText}>Get in touch</p>
-        <h2 className={styles.sectionHeadText}> Contact.</h2>
+        <h2 className={styles.sectionHeadText}>Contact.</h2>
 
-        {/* Add Instagram Link */}
         <div className="mt-4">
           <a
             href="https://www.instagram.com/jaroslav_barabas/"
@@ -90,7 +92,7 @@ const Contact = ({ swal }) => {
           ref={formRef}
           onSubmit={handleSubmit}
         >
-          <label htmlFor="name" className="flex flex-col ">
+          <label htmlFor="name" className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
               type="text"
@@ -100,11 +102,11 @@ const Contact = ({ swal }) => {
               onChange={handleChange}
               autoComplete="off"
               placeholder="What's your name?"
-              className="bg-teriary py-4 px-6  placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-teriary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               required
             />
           </label>
-          <label htmlFor="email" className="flex flex-col ">
+          <label htmlFor="email" className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Email</span>
             <input
               type="email"
@@ -114,27 +116,26 @@ const Contact = ({ swal }) => {
               onChange={handleChange}
               autoComplete="off"
               placeholder="What's your email?"
-              className="bg-teriary py-4 px-6  placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="bg-teriary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               required
             />
           </label>
-          <label htmlFor="message" className="flex flex-col ">
+          <label htmlFor="message" className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Message</span>
             <textarea
               rows="7"
-              type="text"
               name="message"
               id="message"
               value={form.message}
               onChange={handleChange}
               autoComplete="off"
               placeholder="What do you want to say?"
-              className=" resize-none bg-teriary py-4 px-6  placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
+              className="resize-none bg-teriary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium"
               required
             />
           </label>
           <button
-            className=" bg-[#1d125e] outline-none w-fit py-3 px-8 text-white font-bold shadow-md shadow-primary rounded-xl"
+            className="bg-[#1d125e] outline-none w-fit py-3 px-8 text-white font-bold shadow-md shadow-primary rounded-xl"
             type="submit"
           >
             {loading ? "Sending..." : "Send"}
@@ -144,7 +145,7 @@ const Contact = ({ swal }) => {
 
       <motion.div
         variants={slideIn("right", "tween", 0.2, 1)}
-        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px] "
+        className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"
       >
         <EarthCanvas />
       </motion.div>
