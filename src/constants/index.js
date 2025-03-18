@@ -37,6 +37,7 @@ import {
   zadiel,
   kurzy,
   laraveleshop,
+  sociometrix,
 } from "../assets";
 
 export const navLinks = [
@@ -313,6 +314,29 @@ const projects = [
     image: kurzy,
     source_website: ["jaroslav-kurzy.vercel.app"],
     for: "myself",
+  },
+
+  {
+    name: "Sociometrix",
+    description:
+      "Sociometrix is ​​a platform for analyzing social patterns in groups, such as a classroom, and provides insight into relationships between individuals. It also offers features such as anonymous chat with a psychologist.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: sociometrix,
+    source_website: ["sociometrix.site"],
+    for: "company",
   },
 
   {

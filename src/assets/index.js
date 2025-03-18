@@ -41,6 +41,7 @@ import srdcomitelom from "./srdcomitelom.png"
 import zadiel from "./zadiel.png"
 import kurzy from "./kurz.png"
 import laraveleshop from "./laraveleshop.png";
+import sociometrix from "./sociometrix.png";
 
 export {
   logo,
@@ -85,4 +86,5 @@ export {
   zadiel,
   kurzy,
   laraveleshop,
+  sociometrix
 };
