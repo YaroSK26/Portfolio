@@ -126,6 +126,12 @@ const Awards = () => {
       description: "Technical Certificate",
       icon: ScrollText,
     },
+    {
+      type: "certificate",
+      title: " 92% IT Master Test -  IT Fitness Test 2025",
+      description: "IT Certificate",
+      icon: ScrollText,
+    },
   ];
 
   return (
