@@ -84,6 +84,12 @@ const Awards = () => {
       icon: Medal,
     },
     {
+      type: "winner",
+      title: "Founders Challenge ICKK",
+      description: "2025 - Finalist",
+      icon: Medal,
+    },
+    {
       type: "participation",
       title: "JuniorWEB Competition",
       description: "Participant",
