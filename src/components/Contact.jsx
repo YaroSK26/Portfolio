@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { styles } from "../styles";
 import { EarthCanvas } from "./canvas";
-import { Instagram } from "lucide-react";
+import { Eye, Instagram } from "lucide-react";
 import { slideIn } from "../utils/motion";
 import { toast } from "react-hot-toast";
 import { withSwal } from "react-sweetalert2";
@@ -84,6 +84,15 @@ const Contact = ({ swal }) => {
           >
             <Instagram size={24} />
             <span className="font-medium">Follow me on Instagram</span>
+          </a><br />
+          <a
+            href="https://github.com/YaroSK26/yaroSK26/blob/main/ZivotopisBarabas-new.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 text-white hover:text-purple-400 transition-colors duration-300"
+          >
+            <Eye size={24} />
+            <span className="font-medium">Check my CV</span>
           </a>
         </div>
 

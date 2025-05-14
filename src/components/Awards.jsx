@@ -85,6 +85,12 @@ const Awards = () => {
     },
     {
       type: "winner",
+      title: "SQL Olympiad 2025",
+      description: "School - 1st Place, In Slovakia 12th Place",
+      icon: Medal,
+    },
+    {
+      type: "winner",
       title: "Founders Challenge ICKK",
       description: "2025 - Finalist",
       icon: Medal,
@@ -92,6 +98,12 @@ const Awards = () => {
     {
       type: "participation",
       title: "JuniorWEB Competition",
+      description: "Participant",
+      icon: Code,
+    },
+    {
+      type: "participation",
+      title: "Palma Junior Competition",
       description: "Participant",
       icon: Code,
     },
