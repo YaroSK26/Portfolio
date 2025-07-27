@@ -38,6 +38,9 @@ import {
   kurzy,
   laraveleshop,
   sociometrix,
+  behhutka,
+  viktoria,
+  slovaktravelcouple,
 } from "../assets";
 
 export const navLinks = [
@@ -441,7 +444,61 @@ const projects = [
     source_code_link:
       "https://github.com/YaroSK26/Bible-Story-Journey-of-Faith",
     source_website: ["bible-story.vercel.app"],
-    for: "myself",
+    for: "company",
+  },
+  {
+    name: "Hutčanská 5 run",
+    description:
+      "'Hutčanská 5' is a 5-kilometer run through the village of Nižná Hutka and its scenic natural surroundings. Open to all ages, the event blends sport, nature, and community in a relaxed and friendly atmosphere.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: behhutka,
+    source_website: ["hutcanska5beh.vercel.app"],
+    for: "company",
+  },
+  {
+    name: "Viktória portflio",
+    description:
+      "This is the personal portfolio of Viktória – a creative mind focused on social media. It showcases her work in content creation, branding, and visual strategy tailored for platforms like Instagram and Facebook.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: viktoria,
+    source_website: ["portfolio-viktoria.vercel.app"],
+    for: "company",
+  },
+  {
+    name: "Slovaktravelcouple",
+    description:
+      "Slovaktravelcouple shares authentic moments from road trips, hikes, and spots across Slovakia. It’s a mix of travel inspiration, useful tips, and real experiences from two people passionate about their country.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: slovaktravelcouple,
+    source_website: ["slovaktravelcouple.vercel.app"],
+    for: "company",
   },
   {
     name: "Felix Gray portfolio",

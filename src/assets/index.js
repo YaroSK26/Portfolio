@@ -42,6 +42,9 @@ import zadiel from "./zadiel.png"
 import kurzy from "./kurz.png"
 import laraveleshop from "./laraveleshop.png";
 import sociometrix from "./sociometrix.png";
+import behhutka from "./behhutka.png";
+import viktoria from "./viktoria.png";
+import slovaktravelcouple from "./slovaktravelcouple.png";
 
 export {
   logo,
@@ -86,5 +89,8 @@ export {
   zadiel,
   kurzy,
   laraveleshop,
-  sociometrix
+  sociometrix,
+  behhutka,
+  viktoria,
+  slovaktravelcouple,
 };
