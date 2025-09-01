@@ -222,7 +222,7 @@ const projects = [
       },
     ],
     image: srdcomitelom,
-    source_website: ["srdcomitelom.store"],
+    source_website: ["srdcomitelom.sk"],
     for: "company",
   },
 
