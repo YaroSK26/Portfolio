@@ -45,6 +45,9 @@ import sociometrix from "./sociometrix.png";
 import behhutka from "./behhutka.png";
 import viktoria from "./viktoria.png";
 import slovaktravelcouple from "./slovaktravelcouple.png";
+import skolavovrecku from "./skolavovrecku.png";
+import patrikportfolio from "./patrikportfolio.png";
+import erasmus from "./erasmus.png";
 
 export {
   logo,
@@ -93,4 +96,7 @@ export {
   behhutka,
   viktoria,
   slovaktravelcouple,
+  skolavovrecku,
+  patrikportfolio,
+  erasmus,
 };

@@ -41,6 +41,9 @@ import {
   behhutka,
   viktoria,
   slovaktravelcouple,
+  skolavovrecku,
+  patrikportfolio,
+  erasmus,
 } from "../assets";
 
 export const navLinks = [
@@ -250,51 +253,41 @@ const projects = [
     for: "myself",
   },
   {
-    name: "Apollo 11",
+    name: "Škola vo vrecku",
     description:
-      "This page is dedicated to the Apollo 11 mission, the first successful human landing on the Moon.  it  is an excellent resource for space enthusiasts and history aficionados alike.",
+      "School in your pocket helps students and teachers navigate the school environment with ease. It is an excellent resource for schools looking to simplify orientation, meal systems, and digital interaction.",
     tags: [
       {
         name: "next.js",
         color: "black-text-gradient",
       },
       {
-        name: "gsap",
-        color: "green-text-gradient",
-      },
-      {
         name: "tailwind",
         color: "blue-text-gradient",
       },
     ],
-    image: Apollo11,
-    source_code_link: "https://github.com/YaroSK26/Apollo11",
-    source_website: ["mission-apollo11.vercel.app"],
-    for: "myself",
+    image: skolavovrecku,
+    source_website: ["skolavovrecku.vercel.app"],
+    for: "company",
   },
+
   {
-    name: "E-commerce",
+    name: "Hutčanská 5 run",
     description:
-      "This page is an imitation of e-commerce where customers can add products to their cart, add product to their wishlist, etc. All functions are controlled from the admin dashboard and can be changed easily.",
+      "'Hutčanská 5' is a 5-kilometer run through the village of Nižná Hutka and its scenic natural surroundings. Open to all ages, the event blends sport, nature, and community in a relaxed and friendly atmosphere.",
     tags: [
       {
         name: "next.js",
         color: "black-text-gradient",
       },
       {
-        name: "mongoDB",
-        color: "green-text-gradient",
-      },
-      {
         name: "tailwind",
         color: "blue-text-gradient",
       },
     ],
-    image: eshop,
-    source_code_link:
-      "https://github.com/YaroSK26/eshop-nextjs-tailwind-mongoDB-react-front",
-    source_website: ["eshop-front-jaxo.vercel.app"],
-    for: "myself",
+    image: behhutka,
+    source_website: ["niznahutkabeh.eu"],
+    for: "company",
   },
   {
     name: "Jaroslav | Courses",
@@ -318,7 +311,29 @@ const projects = [
     source_website: ["jaroslav-kurzy.vercel.app"],
     for: "myself",
   },
-
+  {
+    name: "Apollo 11",
+    description:
+      "This page is dedicated to the Apollo 11 mission, the first successful human landing on the Moon.  it  is an excellent resource for space enthusiasts and history aficionados alike.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "gsap",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: Apollo11,
+    source_code_link: "https://github.com/YaroSK26/Apollo11",
+    source_website: ["mission-apollo11.vercel.app"],
+    for: "myself",
+  },
   {
     name: "Sociometrix",
     description:
@@ -381,6 +396,102 @@ const projects = [
     for: "company",
   },
   {
+    name: "Viktória portfolio",
+    description:
+      "This is the personal portfolio of Viktória – a creative mind focused on social media. It showcases her work in content creation, branding, and visual strategy tailored for platforms like Instagram and Facebook.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: viktoria,
+    source_website: ["barabasova-portfolio.vercel.app"],
+    for: "company",
+  },
+  // {
+  //   name: "Slovaktravelcouple",
+  //   description:
+  //     "Slovaktravelcouple shares authentic moments from road trips, hikes, and spots across Slovakia. It’s a mix of travel inspiration, useful tips, and real experiences from two people passionate about their country.",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "black-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: slovaktravelcouple,
+  //   source_website: ["slovaktravelcouple.vercel.app"],
+  //   for: "company",
+  // },
+  {
+    name: "Erasmus+ 2024",
+    description:
+      "A page for the Erasmus+ project, which I successfully completed in Poland in 2024, highlighting the activities, experiences, achievements, and outcomes of the program.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: erasmus,
+    source_website: ["spseke2025erasmus.vercel.app"],
+    for: "company",
+  },
+  {
+    name: "Patrik portfolio",
+    description:
+      "This page presents the portfolio of Patrik Portella, a creative cameraman and photographer with a passion for capturing unique stories. It is a great showcase for anyone interested in professional visuals.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: patrikportfolio,
+    source_website: ["patrik-portella-portfolio.vercel.app"],
+    for: "company",
+  },
+  {
+    name: "E-commerce",
+    description:
+      "This page is an imitation of e-commerce where customers can add products to their cart, add product to their wishlist, etc. All functions are controlled from the admin dashboard and can be changed easily.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "mongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: eshop,
+    source_code_link:
+      "https://github.com/YaroSK26/eshop-nextjs-tailwind-mongoDB-react-front",
+    source_website: ["eshop-front-jaxo.vercel.app"],
+    for: "myself",
+  },
+  {
     name: "Spotify-clone",
     description:
       "Add songs to this website and enjoy listening to your own  tracks or songs that have been added by other people. You can change the volume of songs, change song to next or stop them completely.",
@@ -403,25 +514,7 @@ const projects = [
     source_website: ["spotify-clone-jaxo.vercel.app"],
     for: "myself",
   },
-  {
-    name: "H2O Systems",
-    description:
-      "Website for a company engaged in the production, sale and service of water treatment systems of the highest quality.   They place great emphasis on expertise and the quality of their supplied equipment.",
-    tags: [
-      {
-        name: "next.js",
-        color: "black-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: h2o,
-    source_code_link: "https://github.com/YaroSK26/h2osystems-next",
-    source_website: ["h2osystems.tech"],
-    for: "company",
-  },
+
   {
     name: "Bible Story",
     description:
@@ -446,60 +539,7 @@ const projects = [
     source_website: ["bible-story.vercel.app"],
     for: "company",
   },
-  {
-    name: "Hutčanská 5 run",
-    description:
-      "'Hutčanská 5' is a 5-kilometer run through the village of Nižná Hutka and its scenic natural surroundings. Open to all ages, the event blends sport, nature, and community in a relaxed and friendly atmosphere.",
-    tags: [
-      {
-        name: "next.js",
-        color: "black-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: behhutka,
-    source_website: ["hutcanska5beh.vercel.app"],
-    for: "company",
-  },
-  {
-    name: "Viktória portflio",
-    description:
-      "This is the personal portfolio of Viktória – a creative mind focused on social media. It showcases her work in content creation, branding, and visual strategy tailored for platforms like Instagram and Facebook.",
-    tags: [
-      {
-        name: "next.js",
-        color: "black-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: viktoria,
-    source_website: ["portfolio-viktoria.vercel.app"],
-    for: "company",
-  },
-  {
-    name: "Slovaktravelcouple",
-    description:
-      "Slovaktravelcouple shares authentic moments from road trips, hikes, and spots across Slovakia. It’s a mix of travel inspiration, useful tips, and real experiences from two people passionate about their country.",
-    tags: [
-      {
-        name: "next.js",
-        color: "black-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: slovaktravelcouple,
-    source_website: ["slovaktravelcouple.vercel.app"],
-    for: "company",
-  },
+
   {
     name: "Felix Gray portfolio",
     description:
@@ -542,9 +582,28 @@ const projects = [
       },
     ],
     image: health,
-    source_code_link: "https://github.com/YaroSK26/Healthity",
+    source_code_link: "github.com/YaroSK26/Healthity",
     source_website: ["healthity.vercel.app"],
     for: "myself",
+  },
+  {
+    name: "H2O Systems",
+    description:
+      "Website for a company engaged in the production, sale and service of water treatment systems of the highest quality.   They place great emphasis on expertise and the quality of their supplied equipment.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: h2o,
+    source_code_link: "https://github.com/YaroSK26/h2osystems-next",
+    source_website: ["h2osystems.tech"],
+    for: "company",
   },
 
   // {
