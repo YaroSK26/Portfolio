@@ -267,7 +267,7 @@ const projects = [
       },
     ],
     image: skolavovrecku,
-    source_website: ["skolavovrecku.vercel.app"],
+    source_website: ["skolavovrecku.sk"],
     for: "company",
   },
 
