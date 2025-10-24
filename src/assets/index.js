@@ -48,6 +48,7 @@ import slovaktravelcouple from "./slovaktravelcouple.png";
 import skolavovrecku from "./skolavovrecku.png";
 import patrikportfolio from "./patrikportfolio.png";
 import erasmus from "./erasmus.png";
+import mojaspseke from "./mojaspseke.png";
 
 export {
   logo,
@@ -99,4 +100,5 @@ export {
   skolavovrecku,
   patrikportfolio,
   erasmus,
+  mojaspseke
 };

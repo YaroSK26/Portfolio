@@ -44,6 +44,7 @@ import {
   skolavovrecku,
   patrikportfolio,
   erasmus,
+  mojaspseke,
 } from "../assets";
 
 export const navLinks = [
@@ -356,7 +357,24 @@ const projects = [
     source_website: ["sociometrix.site"],
     for: "company",
   },
-
+  {
+    name: "Moja SPŠEKE",
+    description:
+      "The Moja spšeke app from Škola vo vrečku helps students and teachers navigate the school environment with ease. It is an excellent resource for schools looking to simplify orientation, meal systems, and digital interaction.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: mojaspseke,
+    source_website: ["mojaspseke.vercel.app"],
+    for: "company",
+  },
   {
     name: "Zadiel Hostel",
     description:
