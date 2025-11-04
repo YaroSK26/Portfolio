@@ -431,24 +431,24 @@ const projects = [
     source_website: ["barabasova-portfolio.vercel.app"],
     for: "company",
   },
-  // {
-  //   name: "Slovaktravelcouple",
-  //   description:
-  //     "Slovaktravelcouple shares authentic moments from road trips, hikes, and spots across Slovakia. It’s a mix of travel inspiration, useful tips, and real experiences from two people passionate about their country.",
-  //   tags: [
-  //     {
-  //       name: "next.js",
-  //       color: "black-text-gradient",
-  //     },
-  //     {
-  //       name: "tailwind",
-  //       color: "blue-text-gradient",
-  //     },
-  //   ],
-  //   image: slovaktravelcouple,
-  //   source_website: ["slovaktravelcouple.vercel.app"],
-  //   for: "company",
-  // },
+  {
+    name: "Slovaktravelcouple",
+    description:
+      "Slovaktravelcouple shares authentic moments from road trips, hikes, and spots across Slovakia. It’s a mix of travel inspiration, useful tips, and real experiences from two people passionate about their country.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: slovaktravelcouple,
+    source_website: ["slovaktravelcouple.eu"],
+    for: "company",
+  },
   {
     name: "Erasmus+ 2024",
     description:
@@ -509,29 +509,29 @@ const projects = [
     source_website: ["eshop-front-jaxo.vercel.app"],
     for: "myself",
   },
-  {
-    name: "Spotify-clone",
-    description:
-      "Add songs to this website and enjoy listening to your own  tracks or songs that have been added by other people. You can change the volume of songs, change song to next or stop them completely.",
-    tags: [
-      {
-        name: "next.js",
-        color: "black-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: spotifyClone,
-    source_code_link: "https://github.com/YaroSK26/spotify-clone",
-    source_website: ["spotify-clone-jaxo.vercel.app"],
-    for: "myself",
-  },
+  // {
+  //   name: "Spotify-clone",
+  //   description:
+  //     "Add songs to this website and enjoy listening to your own  tracks or songs that have been added by other people. You can change the volume of songs, change song to next or stop them completely.",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "black-text-gradient",
+  //     },
+  //     {
+  //       name: "supabase",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: spotifyClone,
+  //   source_code_link: "https://github.com/YaroSK26/spotify-clone",
+  //   source_website: ["spotify-clone-jaxo.vercel.app"],
+  //   for: "myself",
+  // },
 
   {
     name: "Bible Story",
@@ -581,29 +581,29 @@ const projects = [
     for: "company",
   },
 
-  {
-    name: "Healthity",
-    description:
-      "App that will make you fit. Bmi, water checker or food tracker will convince you of the power of web technologies! Record your data and track your progress.Discover the power of Healthity. ",
-    tags: [
-      {
-        name: "next.js",
-        color: "black-text-gradient",
-      },
-      {
-        name: "mongoDB",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
-        color: "blue-text-gradient",
-      },
-    ],
-    image: health,
-    source_code_link: "github.com/YaroSK26/Healthity",
-    source_website: ["healthity.vercel.app"],
-    for: "myself",
-  },
+  // {
+  //   name: "Healthity",
+  //   description:
+  //     "App that will make you fit. Bmi, water checker or food tracker will convince you of the power of web technologies! Record your data and track your progress.Discover the power of Healthity. ",
+  //   tags: [
+  //     {
+  //       name: "next.js",
+  //       color: "black-text-gradient",
+  //     },
+  //     {
+  //       name: "mongoDB",
+  //       color: "green-text-gradient",
+  //     },
+  //     {
+  //       name: "tailwind",
+  //       color: "blue-text-gradient",
+  //     },
+  //   ],
+  //   image: health,
+  //   source_code_link: "github.com/YaroSK26/Healthity",
+  //   source_website: ["healthity.vercel.app"],
+  //   for: "myself",
+  // },
   {
     name: "H2O Systems",
     description:
