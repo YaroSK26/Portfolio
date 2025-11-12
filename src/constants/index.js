@@ -229,11 +229,10 @@ const projects = [
     source_website: ["srdcomitelom.sk"],
     for: "company",
   },
-
   {
-    name: "Trust",
+    name: "Sociometrix",
     description:
-      "A website called Trust will help you build trust in friends, family, in yourself and most importantly in God. Being able to pray, read plans or communicate with people will get you on the right path.",
+      "Sociometrix is ​​a platform for analyzing social patterns in groups, such as a classroom, and provides insight into relationships between individuals. It also offers features such as anonymous chat with a psychologist.",
     tags: [
       {
         name: "next.js",
@@ -248,11 +247,11 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: trust,
-    source_code_link: "https://github.com/YaroSK26/trust",
-    source_website: ["trust-god.vercel.app"],
-    for: "myself",
+    image: sociometrix,
+    source_website: ["sociometrix.eu"],
+    for: "company",
   },
+
   {
     name: "Škola vo vrecku",
     description:
@@ -336,9 +335,9 @@ const projects = [
     for: "myself",
   },
   {
-    name: "Sociometrix",
+    name: "Trust",
     description:
-      "Sociometrix is ​​a platform for analyzing social patterns in groups, such as a classroom, and provides insight into relationships between individuals. It also offers features such as anonymous chat with a psychologist.",
+      "A website called Trust will help you build trust in friends, family, in yourself and most importantly in God. Being able to pray, read plans or communicate with people will get you on the right path.",
     tags: [
       {
         name: "next.js",
@@ -353,9 +352,10 @@ const projects = [
         color: "blue-text-gradient",
       },
     ],
-    image: sociometrix,
-    source_website: ["sociometrix.site"],
-    for: "company",
+    image: trust,
+    source_code_link: "https://github.com/YaroSK26/trust",
+    source_website: ["trust-god.vercel.app"],
+    for: "myself",
   },
   {
     name: "Moja SPŠEKE",
