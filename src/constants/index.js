@@ -45,6 +45,7 @@ import {
   patrikportfolio,
   erasmus,
   mojaspseke,
+  willaireplaceyou,
 } from "../assets";
 
 export const navLinks = [
@@ -373,6 +374,25 @@ const projects = [
     ],
     image: mojaspseke,
     source_website: ["mojaspseke.vercel.app"],
+    for: "company",
+  },
+  {
+    name: "Will AI replace You?",
+    description:
+      "The project willaireplace.you was used in the Deutsche Telekom IT Solutions Hackathon 2025. On GitHub it's described as a “career compass for the future of work” — analysing how AI might affect your job role and giving a personalised upskilling roadmap.",
+    tags: [
+      {
+        name: "next.js",
+        color: "black-text-gradient",
+      },
+      {
+        name: "tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: willaireplaceyou,
+    source_code_link: "https://github.com/teoobarca/willaireplaceyou",
+    source_website: ["willaireplace.you"],
     for: "company",
   },
   {

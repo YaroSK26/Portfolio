@@ -49,6 +49,7 @@ import skolavovrecku from "./skolavovrecku.png";
 import patrikportfolio from "./patrikportfolio.png";
 import erasmus from "./erasmus.png";
 import mojaspseke from "./mojaspseke.png";
+import willaireplaceyou from "./willaireplaceyou.png";
 
 export {
   logo,
@@ -100,5 +101,6 @@ export {
   skolavovrecku,
   patrikportfolio,
   erasmus,
-  mojaspseke
+  mojaspseke,
+  willaireplaceyou,
 };
