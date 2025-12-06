@@ -373,7 +373,7 @@ const projects = [
       },
     ],
     image: mojaspseke,
-    source_website: ["mojaspseke.vercel.app"],
+    source_website: ["moja-spseke.vercel.app"],
     for: "company",
   },
   {
